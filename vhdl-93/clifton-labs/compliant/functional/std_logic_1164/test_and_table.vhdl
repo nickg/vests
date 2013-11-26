@@ -24,6 +24,9 @@ end foo;
 
 use work.foo.all;
 
+library ieee;
+use ieee.std_logic_1164.all;
+
 architecture only of test is
 
 begin  -- only

@@ -8,7 +8,7 @@ package foo is
   TYPE stdlogic_table IS ARRAY(std_ulogic, std_ulogic) OF std_ulogic;
   CONSTANT resolution_table : stdlogic_table := (
 --  ---------------------------------------------------------
---  |  U    X    0    1    Z    W    L    H    -        |   |  
+--  |  U    X    0    1    Z    W    L    H    -        |   |
 --  ---------------------------------------------------------
     ( 'U', 'U', 'U', 'U', 'U', 'U', 'U', 'U', 'U' ), -- | U |
     ( 'U', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X' ), -- | X |
@@ -23,6 +23,9 @@ package foo is
 end foo;
 
 use work.foo.all;
+
+library ieee;
+use ieee.std_logic_1164.all;
 
 architecture only of test is
 
