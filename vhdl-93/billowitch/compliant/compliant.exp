@@ -1632,11 +1632,11 @@ run_compliant_test tc3184.vhd
 run_compliant_test tc3185.vhd OUTPUT=iofile.02:iofiles/iofile.02
 run_compliant_test tc3186.vhd OUTPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc3187.vhd OUTPUT=iofile.04:iofiles/iofile.04
+run_compliant_test tc3192.vhd OUTPUT=iofile.06:iofiles/iofile.06
 run_compliant_test tc3188.vhd INPUT=iofile.06:iofiles/iofile.06
 run_compliant_test tc3189.vhd INPUT=iofile.02:iofiles/iofile.02
 run_compliant_test tc3190.vhd OUTPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc3191.vhd INPUT=iofile.04:iofiles/iofile.04
-run_compliant_test tc3192.vhd OUTPUT=iofile.06:iofiles/iofile.06
 run_compliant_test tc3193.vhd INPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc3194.vhd OUTPUT=iofile.09:iofiles/iofile.09
 run_compliant_test tc3195.vhd INPUT=iofile.09:iofiles/iofile.09
