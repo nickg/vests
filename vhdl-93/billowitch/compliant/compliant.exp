@@ -342,8 +342,8 @@ run_compliant_test tc542.vhd
 run_compliant_test tc544.vhd
 run_compliant_test tc545.vhd
 run_compliant_test tc546.vhd
-run_compliant_test tc554.vhd INPUT=iofile.10:iofiles/iofile.10
 run_compliant_test tc555.vhd OUTPUT=iofile.10:iofiles/iofile.10
+run_compliant_test tc554.vhd INPUT=iofile.10:iofiles/iofile.10
 run_compliant_test tc556.vhd OUTPUT=iofile.25:iofiles/iofile.25
 run_compliant_test tc557.vhd OUTPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc558.vhd INPUT=iofile.08:iofiles/iofile.08
@@ -484,8 +484,8 @@ run_compliant_test tc692.vhd INPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc693.vhd INPUT=iofile.54:iofiles/iofile.54
 run_compliant_test tc694.vhd OUTPUT=iofile.54:iofiles/iofile.54
 run_compliant_test tc695.vhd INPUT=iofile.10:iofiles/iofile.10
-run_compliant_test tc696.vhd INPUT=iofile.55:iofiles/iofile.55
 run_compliant_test tc697.vhd OUTPUT=iofile.55:iofiles/iofile.55
+run_compliant_test tc696.vhd INPUT=iofile.55:iofiles/iofile.55
 run_compliant_test tc698.vhd OUTPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc699.vhd INPUT=iofile.08:iofiles/iofile.08
 run_compliant_test tc700.vhd OUTPUT=iofile.08:iofiles/iofile.08
@@ -501,7 +501,7 @@ run_compliant_test tc709.vhd INPUT=iofile.59:iofiles/iofile.59
 run_compliant_test tc710.vhd OUTPUT=iofile.60:iofiles/iofile.60
 run_compliant_test tc711.vhd INPUT=iofile.60:iofiles/iofile.60
 run_compliant_test tc712.vhd OUTPUT=iofile.01:iofiles/iofile.01
-run_compliant_test tc713.vhd INPUT=iofile.02:iofiles/iofile.02
+run_compliant_test tc713.vhd INPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc717.vhd
 run_compliant_test tc719.vhd
 run_compliant_test tc731.vhd
@@ -1646,8 +1646,8 @@ run_compliant_test tc3198.vhd OUTPUT=iofile.12:iofiles/iofile.12
 run_compliant_test tc3199.vhd INPUT=iofile.12:iofiles/iofile.12
 run_compliant_test tc3200.vhd OUTPUT=iofile.14:iofiles/iofile.14
 run_compliant_test tc3201.vhd INPUT=iofile.14:iofiles/iofile.14
-run_compliant_test tc3202.vhd INPUT=iofile.61:iofiles/iofile.61
 run_compliant_test tc3203.vhd OUTPUT=iofile.61:iofiles/iofile.61
+run_compliant_test tc3202.vhd INPUT=iofile.61:iofiles/iofile.61
 run_compliant_test tc3204.vhd OUTPUT=iofile.47:iofiles/iofile.47
 run_compliant_test tc3205.vhd OUTPUT=iofile.64:iofiles/iofile.64
 run_compliant_test tc3206.vhd INPUT=iofile.64:iofiles/iofile.64

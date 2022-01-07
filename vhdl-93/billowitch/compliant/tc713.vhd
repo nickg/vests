@@ -71,7 +71,7 @@ ARCHITECTURE c03s04b01x00p24n01i00713arch OF c03s04b01x00p24n01i00713ent IS
 BEGIN
   TESTING: PROCESS
     -- Declare the actual file to write.
-    file FILEV : ft3 open read_mode is "iofile.02";
+    file FILEV : ft3 open read_mode is "iofile.01";
     variable length   : INTEGER;
     variable str   : STR16;
     variable count    : integer := 0;
