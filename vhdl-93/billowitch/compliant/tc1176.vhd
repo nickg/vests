@@ -10,16 +10,16 @@
 -- VESTs is free software; you can redistribute it and/or modify it
 -- under the terms of the GNU General Public License as published by the
 -- Free Software Foundation; either version 2 of the License, or (at
--- your option) any later version. 
+-- your option) any later version.
 
 -- VESTs is distributed in the hope that it will be useful, but WITHOUT
 -- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 -- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
--- for more details. 
+-- for more details.
 
 -- You should have received a copy of the GNU General Public License
 -- along with VESTs; if not, write to the Free Software Foundation,
--- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 -- ---------------------------------------------------------------------
 --
@@ -38,15 +38,16 @@ BEGIN
   begin
     k <= 5;
     wait for 1 ns;
+    wait;                               -- XXX: added by Nick
   end process L1;
 
   TESTING: PROCESS
   BEGIN
     wait for 5 ns;
-    assert NOT(k = 5) 
+    assert NOT(k = 5)
       report "***PASSED TEST: c08s00b00x00p01n02i01176"
       severity NOTE;
-    assert (k = 5) 
+    assert (k = 5)
       report "***FAILED TEST: c08s00b00x00p01n02i01176 - Sequential statement are executed in the order in which they appear."
       severity ERROR;
     wait;

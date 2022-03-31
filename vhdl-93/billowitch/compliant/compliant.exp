@@ -323,8 +323,8 @@ run_compliant_test tc519.vhd
 run_compliant_test tc520.vhd
 run_compliant_test tc521.vhd
 run_compliant_test tc522.vhd
-run_compliant_test tc523.vhd
-run_compliant_test tc524.vhd
+run_compliant_test tc523.vhd  EXPFAIL  # Value out of range
+run_compliant_test tc524.vhd  EXPFAIL  # Value out of range
 run_compliant_test tc525.vhd
 run_compliant_test tc526.vhd
 run_compliant_test tc527.vhd
@@ -499,7 +499,7 @@ run_compliant_test tc707.vhd INPUT=iofile.58:iofiles/iofile.58
 run_compliant_test tc708.vhd OUTPUT=iofile.59:iofiles/iofile.59
 run_compliant_test tc709.vhd INPUT=iofile.59:iofiles/iofile.59
 run_compliant_test tc710.vhd OUTPUT=iofile.60:iofiles/iofile.60
-run_compliant_test tc711.vhd INPUT=iofile.60:iofiles/iofile.60
+run_compliant_test tc711.vhd INPUT=iofile.60:iofiles/iofile.60   EXPFAIL # Mismatched range direction
 run_compliant_test tc712.vhd OUTPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc713.vhd INPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc717.vhd
@@ -754,15 +754,15 @@ run_compliant_test tc1233.vhd
 run_compliant_test tc1234.vhd
 run_compliant_test tc1256.vhd
 run_compliant_test tc1257.vhd
-run_compliant_test tc1258.vhd
-run_compliant_test tc1259.vhd
+run_compliant_test tc1258.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1259.vhd  EXPFAIL  # Tests assertion failure
 run_compliant_test tc1260.vhd
 run_compliant_test tc1261.vhd
-run_compliant_test tc1262.vhd
-run_compliant_test tc1263.vhd
-run_compliant_test tc1265.vhd
+run_compliant_test tc1262.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1263.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1265.vhd  EXPFAIL  # Tests assertion failure
 run_compliant_test tc1266.vhd
-run_compliant_test tc1267.vhd
+run_compliant_test tc1267.vhd  EXPFAIL  # Tests assertion failure
 run_compliant_test tc1268.vhd
 run_compliant_test tc1269.vhd
 run_compliant_test tc1292.vhd
@@ -1316,7 +1316,7 @@ run_compliant_test tc2430.vhd
 run_compliant_test tc2432.vhd
 run_compliant_test tc2435.vhd
 run_compliant_test tc2436.vhd
-run_compliant_test tc2439.vhd
+run_compliant_test tc2439.vhd    EXPFAIL  # Missing choices for some CHARACTER values
 run_compliant_test tc2440.vhd
 run_compliant_test tc2446.vhd
 run_compliant_test tc2448.vhd
