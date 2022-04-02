@@ -1155,7 +1155,7 @@ run_compliant_test tc2120.vhd
 run_compliant_test tc2121.vhd
 run_compliant_test tc2122.vhd
 run_compliant_test tc2123.vhd
-run_compliant_test tc2124.vhd
+run_compliant_test tc2124.vhd  EXPFAIL   # Error in test case
 run_compliant_test tc2125.vhd
 run_compliant_test tc2126.vhd
 run_compliant_test tc2127.vhd
@@ -1280,7 +1280,7 @@ run_compliant_test tc2365.vhd
 run_compliant_test tc2366.vhd
 run_compliant_test tc2367.vhd
 run_compliant_test tc2368.vhd
-run_compliant_test tc2369.vhd
+run_compliant_test tc2369.vhd  EXPFAIL   # Error in test case
 run_compliant_test tc2370.vhd
 run_compliant_test tc2371.vhd
 run_compliant_test tc2372.vhd
