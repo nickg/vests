@@ -323,8 +323,8 @@ run_compliant_test tc519.vhd
 run_compliant_test tc520.vhd
 run_compliant_test tc521.vhd
 run_compliant_test tc522.vhd
-run_compliant_test tc523.vhd  EXPFAIL  # Value out of range
-run_compliant_test tc524.vhd  EXPFAIL  # Value out of range
+#run_compliant_test tc523.vhd  # Value out of range
+#run_compliant_test tc524.vhd  # Value out of range
 run_compliant_test tc525.vhd
 run_compliant_test tc526.vhd
 run_compliant_test tc527.vhd
@@ -499,7 +499,7 @@ run_compliant_test tc707.vhd INPUT=iofile.58:iofiles/iofile.58
 run_compliant_test tc708.vhd OUTPUT=iofile.59:iofiles/iofile.59
 run_compliant_test tc709.vhd INPUT=iofile.59:iofiles/iofile.59
 run_compliant_test tc710.vhd OUTPUT=iofile.60:iofiles/iofile.60
-run_compliant_test tc711.vhd INPUT=iofile.60:iofiles/iofile.60   EXPFAIL # Mismatched range direction
+#run_compliant_test tc711.vhd INPUT=iofile.60:iofiles/iofile.60 # Mismatched range direction
 run_compliant_test tc712.vhd OUTPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc713.vhd INPUT=iofile.01:iofiles/iofile.01
 run_compliant_test tc717.vhd
@@ -1155,7 +1155,7 @@ run_compliant_test tc2120.vhd
 run_compliant_test tc2121.vhd
 run_compliant_test tc2122.vhd
 run_compliant_test tc2123.vhd
-run_compliant_test tc2124.vhd  EXPFAIL   # Error in test case
+#run_compliant_test tc2124.vhd  # Error in test case
 run_compliant_test tc2125.vhd
 run_compliant_test tc2126.vhd
 run_compliant_test tc2127.vhd
@@ -1280,7 +1280,7 @@ run_compliant_test tc2365.vhd
 run_compliant_test tc2366.vhd
 run_compliant_test tc2367.vhd
 run_compliant_test tc2368.vhd
-run_compliant_test tc2369.vhd  EXPFAIL   # Error in test case
+#run_compliant_test tc2369.vhd   # Error in test case
 run_compliant_test tc2370.vhd
 run_compliant_test tc2371.vhd
 run_compliant_test tc2372.vhd
@@ -1316,7 +1316,7 @@ run_compliant_test tc2430.vhd
 run_compliant_test tc2432.vhd
 run_compliant_test tc2435.vhd
 run_compliant_test tc2436.vhd
-run_compliant_test tc2439.vhd    EXPFAIL  # Missing choices for some CHARACTER values
+#run_compliant_test tc2439.vhd  # Missing choices for some CHARACTER values
 run_compliant_test tc2440.vhd
 run_compliant_test tc2446.vhd
 run_compliant_test tc2448.vhd
