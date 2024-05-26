@@ -256,10 +256,10 @@ run_non_compliant_test tc551.vhd
 run_non_compliant_test tc552.vhd
 run_non_compliant_test tc553.vhd
 run_non_compliant_test tc714.vhd
-run_non_compliant_test tc715.vhd
+#run_non_compliant_test tc715.vhd   # Has all expected semi-colons
 run_non_compliant_test tc716.vhd
 run_non_compliant_test tc718.vhd
-run_non_compliant_test tc720.vhd
+#run_non_compliant_test tc720.vhd   # Actually valid
 run_non_compliant_test tc721.vhd
 run_non_compliant_test tc722.vhd
 run_non_compliant_test tc723.vhd
@@ -309,7 +309,7 @@ run_non_compliant_test tc802.vhd
 run_non_compliant_test tc803.vhd
 run_non_compliant_test tc804.vhd
 run_non_compliant_test tc806.vhd
-run_non_compliant_test tc807.vhd
+#run_non_compliant_test tc807.vhd    # Actually valid
 run_non_compliant_test tc808.vhd
 run_non_compliant_test tc809.vhd
 run_non_compliant_test tc810.vhd
@@ -1534,7 +1534,7 @@ run_non_compliant_test tc3030.vhd
 run_non_compliant_test tc3031.vhd
 run_non_compliant_test tc3058.vhd
 run_non_compliant_test tc3064.vhd
-run_non_compliant_test tc3087.vhd
+#run_non_compliant_test tc3087.vhd     # Seems to be dummy test
 run_non_compliant_test tc3088.vhd
 run_non_compliant_test tc3089.vhd
 run_non_compliant_test tc3091.vhd
