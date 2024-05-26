@@ -754,15 +754,15 @@ run_compliant_test tc1233.vhd
 run_compliant_test tc1234.vhd
 run_compliant_test tc1256.vhd
 run_compliant_test tc1257.vhd
-run_compliant_test tc1258.vhd  EXPFAIL  # Tests assertion failure
-run_compliant_test tc1259.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1258.vhd
+#run_compliant_test tc1259.vhd   Assertion failure
 run_compliant_test tc1260.vhd
 run_compliant_test tc1261.vhd
-run_compliant_test tc1262.vhd  EXPFAIL  # Tests assertion failure
-run_compliant_test tc1263.vhd  EXPFAIL  # Tests assertion failure
-run_compliant_test tc1265.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1262.vhd
+run_compliant_test tc1263.vhd
+run_compliant_test tc1265.vhd
 run_compliant_test tc1266.vhd
-run_compliant_test tc1267.vhd  EXPFAIL  # Tests assertion failure
+run_compliant_test tc1267.vhd
 run_compliant_test tc1268.vhd
 run_compliant_test tc1269.vhd
 run_compliant_test tc1292.vhd

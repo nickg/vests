@@ -10,16 +10,16 @@
 -- VESTs is free software; you can redistribute it and/or modify it
 -- under the terms of the GNU General Public License as published by the
 -- Free Software Foundation; either version 2 of the License, or (at
--- your option) any later version. 
+-- your option) any later version.
 
 -- VESTs is distributed in the hope that it will be useful, but WITHOUT
 -- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 -- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
--- for more details. 
+-- for more details.
 
 -- You should have received a copy of the GNU General Public License
 -- along with VESTs; if not, write to the Free Software Foundation,
--- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 -- ---------------------------------------------------------------------
 --
@@ -41,7 +41,7 @@ BEGIN
     wait;
   END PROCESS TESTING;
 
-END c12s03b02x02p05n01i03064arch_a;
+END c12s03b02x02p05n01i03064arch;
 
 
 ENTITY c12s03b02x02p05n01i03064ent IS
@@ -49,7 +49,7 @@ ENTITY c12s03b02x02p05n01i03064ent IS
 END c12s03b02x02p05n01i03064ent;
 
 ARCHITECTURE c12s03b02x02p05n01i03064arch OF c12s03b02x02p05n01i03064ent IS
-  component c12s03b02x02p05n01i03064ent_aa 
+  component c12s03b02x02p05n01i03064ent_aa
     port(con : in bit:='1'; clk : out bit);
   end component;
   for all: c12s03b02x02p05n01i03064ent_aa use entity work.fail(c12s03b02x02p05n01i03064arch_a);       -- Failure_here

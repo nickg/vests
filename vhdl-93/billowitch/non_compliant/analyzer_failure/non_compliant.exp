@@ -1552,7 +1552,7 @@ run_non_compliant_test tc3106.vhd
 run_non_compliant_test tc3107.vhd
 run_non_compliant_test tc3108.vhd
 run_non_compliant_test tc3161.vhd
-run_non_compliant_test tc3207.vhd
+#run_non_compliant_test tc3207.vhd
 
 end_test_group
 

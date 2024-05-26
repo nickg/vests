@@ -10,16 +10,16 @@
 -- VESTs is free software; you can redistribute it and/or modify it
 -- under the terms of the GNU General Public License as published by the
 -- Free Software Foundation; either version 2 of the License, or (at
--- your option) any later version. 
+-- your option) any later version.
 
 -- VESTs is distributed in the hope that it will be useful, but WITHOUT
 -- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 -- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
--- for more details. 
+-- for more details.
 
 -- You should have received a copy of the GNU General Public License
 -- along with VESTs; if not, write to the Free Software Foundation,
--- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 -- ---------------------------------------------------------------------
 --
@@ -34,14 +34,14 @@ ENTITY c08s04b00x00p04n01i01289ent IS
 END c08s04b00x00p04n01i01289ent;
 
 ARCHITECTURE c08s04b00x00p04n01i01289arch OF c08s04b00x00p04n01i01289ent IS
-  signal S1 : BIT; 
+  signal S1 : BIT;
 BEGIN
   TESTING: PROCESS
   BEGIN
     ALIAN_1(2) <= S1;
     wait for 1 ns;
     assert FALSE
-      report "***FAILED TEST: c08s04b00x00p04n01i01289 - An alias for a port whose mode is "IN" can not be on the left-hand side of a signal assignment." 
+      report "***FAILED TEST: c08s04b00x00p04n01i01289 - An alias for a port whose mode is ""IN"" can not be on the left-hand side of a signal assignment."
       severity ERROR;
     wait;
   END PROCESS TESTING;

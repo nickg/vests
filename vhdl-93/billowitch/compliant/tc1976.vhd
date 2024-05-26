@@ -10,16 +10,16 @@
 -- VESTs is free software; you can redistribute it and/or modify it
 -- under the terms of the GNU General Public License as published by the
 -- Free Software Foundation; either version 2 of the License, or (at
--- your option) any later version. 
+-- your option) any later version.
 
 -- VESTs is distributed in the hope that it will be useful, but WITHOUT
 -- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 -- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
--- for more details. 
+-- for more details.
 
 -- You should have received a copy of the GNU General Public License
 -- along with VESTs; if not, write to the Free Software Foundation,
--- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 -- ---------------------------------------------------------------------
 --
@@ -49,7 +49,7 @@ BEGIN
     end if;
     wait for 1 ns;
     assert FALSE
-      report "***PASSED TEST: c07s02b01x00p03n01i01976 - This test needs manual check, only when the FAILED TEST assertion do not appear then the test is passed."
+      report "***PASSED TEST: c07s02b01x00p03n01i01976 - This test needs manual check, only when the _FAILED_ _TEST_ assertion do not appear then the test is passed."
       severity NOTE;
     wait;
   END PROCESS TESTING;
