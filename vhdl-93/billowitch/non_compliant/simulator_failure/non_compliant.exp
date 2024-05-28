@@ -56,6 +56,7 @@ run_non_compliant_test tc1707.vhd
 run_non_compliant_test tc1708.vhd
 run_non_compliant_test tc1725.vhd
 run_non_compliant_test tc1951.vhd
+run_non_compliant_test tc2254.vhd
 run_non_compliant_test tc3056.vhd
 
 end_test_group
