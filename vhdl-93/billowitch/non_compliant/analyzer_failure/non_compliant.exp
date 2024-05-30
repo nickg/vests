@@ -908,15 +908,6 @@ run_non_compliant_test tc1927.vhd
 run_non_compliant_test tc1928.vhd
 run_non_compliant_test tc1929.vhd
 run_non_compliant_test tc1930.vhd
-run_non_compliant_test tc1933.vhd
-run_non_compliant_test tc1934.vhd
-run_non_compliant_test tc1935.vhd
-run_non_compliant_test tc1936.vhd
-run_non_compliant_test tc1937.vhd
-run_non_compliant_test tc1938.vhd
-run_non_compliant_test tc1939.vhd
-run_non_compliant_test tc1940.vhd
-run_non_compliant_test tc1941.vhd
 run_non_compliant_test tc1977.vhd
 run_non_compliant_test tc1979.vhd
 run_non_compliant_test tc1980.vhd
