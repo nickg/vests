@@ -42,7 +42,9 @@ run_non_compliant_test tc261.vhd
 run_non_compliant_test tc262.vhd
 run_non_compliant_test tc263.vhd
 run_non_compliant_test tc264.vhd
+run_non_compliant_test tc289.vhd
 run_non_compliant_test tc536.vhd
+run_non_compliant_test tc780.vhd
 
 run_non_compliant_test tc1074.vhd
 run_non_compliant_test tc1227.vhd
@@ -66,6 +68,8 @@ run_non_compliant_test tc1940.vhd
 run_non_compliant_test tc1941.vhd
 run_non_compliant_test tc1951.vhd
 run_non_compliant_test tc2254.vhd
+run_non_compliant_test tc2256.vhd
+run_non_compliant_test tc2362.vhd
 run_non_compliant_test tc3056.vhd
 
 end_test_group

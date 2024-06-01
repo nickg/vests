@@ -43,7 +43,7 @@ BEGIN
   BEGIN
     wait for 5 ns;
     assert FALSE
-      report "***FAILED TEST: c10s03b00x00p05n01i00906 - Declaration is not visible until the end of the declaration.
+      report "***FAILED TEST: c10s03b00x00p05n01i00906 - Declaration is not visible until the end of the declaration."
       severity ERROR;
     wait;
   END PROCESS TESTING;

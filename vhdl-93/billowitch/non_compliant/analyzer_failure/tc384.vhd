@@ -37,11 +37,8 @@ ARCHITECTURE c03s02b01x01p04n01i00384arch OF c03s02b01x01p04n01i00384ent IS
 BEGIN
    TESTING: PROCESS
    BEGIN
-   assert FALSE 
-      report "***FAILED TEST: ENTITY c03s02b01x01p04n01i00384ent IS
-END c03s02b01x01p04n01i00384ent;
-
-ARCHITECTURE c03s02b01x01p04n01i00384arch OF c03s02b01x01p04n01i00384ent IS - The index constraint values are not compatible with the corresponding subtype."
+   assert FALSE
+      report "***FAILED TEST: The index constraint values are not compatible with the corresponding subtype."
       severity ERROR;
    wait;
    END PROCESS TESTING;

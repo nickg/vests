@@ -33,14 +33,14 @@ ENTITY c08s04b00x00p04n01i01290ent IS
 END c08s04b00x00p04n01i01290ent;
 
 ARCHITECTURE c08s04b00x00p04n01i01290arch OF c08s04b00x00p04n01i01290ent IS
-  signal S1 : BIT; 
+  signal S1 : BIT;
 BEGIN
   TESTING: PROCESS
   BEGIN
     X(2) <= S1;
     wait for 1 ns;
     assert FALSE
-      report "***FAILED TEST: c08s04b00x00p04n01i01290 - A port whose mode is "IN" can not be on the left-hand side of a signal assignment." 
+      report "***FAILED TEST: c08s04b00x00p04n01i01290 - A port whose mode is ""IN"" can not be on the left-hand side of a signal assignment."
       severity ERROR;
     wait;
   END PROCESS TESTING;
