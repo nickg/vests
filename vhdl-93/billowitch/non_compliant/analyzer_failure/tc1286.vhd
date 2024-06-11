@@ -34,14 +34,14 @@ ENTITY c08s04b00x00p04n01i01286ent IS
 END c08s04b00x00p04n01i01286ent;
 
 ARCHITECTURE c08s04b00x00p04n01i01286arch OF c08s04b00x00p04n01i01286ent IS
-  signal S1 : BIT; 
+  signal S1 : BIT;
 BEGIN
   TESTING: PROCESS
   BEGIN
     ALIAN_1 <= S1;
     wait for 1 ns;
     assert FALSE
-      report "***FAILED TEST: c08s04b00x00p04n01i01286 - An alias for a port whose mode is "IN" can not be on the left-hand side of a signal assignment." 
+      report "***FAILED TEST: c08s04b00x00p04n01i01286 - An alias for a port whose mode is ""IN"" can not be on the left-hand side of a signal assignment."
       severity ERROR;
     wait;
   END PROCESS TESTING;
