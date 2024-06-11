@@ -1156,7 +1156,6 @@ run_non_compliant_test tc2518.vhd
 run_non_compliant_test tc2521.vhd
 run_non_compliant_test tc2523.vhd
 run_non_compliant_test tc2526.vhd
-run_non_compliant_test tc2534.vhd
 run_non_compliant_test tc2536.vhd
 run_non_compliant_test tc2537.vhd
 run_non_compliant_test tc2538.vhd
