@@ -33,14 +33,14 @@ ENTITY c08s04b00x00p04n01i01285ent IS
 END c08s04b00x00p04n01i01285ent;
 
 ARCHITECTURE c08s04b00x00p04n01i01285arch OF c08s04b00x00p04n01i01285ent IS
-  signal S1 : BIT; 
+  signal S1 : BIT;
 BEGIN
   TESTING: PROCESS
   BEGIN
     Z <= S1;
     wait for 1 ns;
     assert FALSE
-      report "***FAILED TEST: c08s04b00x00p04n01i01285 - A port whose mode is "LINKAGE" can not be on the left-hand side of a signal assignment." 
+      report "***FAILED TEST: c08s04b00x00p04n01i01285 - A port whose mode is ""LINKAGE"" can not be on the left-hand side of a signal assignment."
       severity ERROR;
     wait;
   END PROCESS TESTING;
