@@ -10,16 +10,16 @@
 -- VESTs is free software; you can redistribute it and/or modify it
 -- under the terms of the GNU General Public License as published by the
 -- Free Software Foundation; either version 2 of the License, or (at
--- your option) any later version. 
+-- your option) any later version.
 
 -- VESTs is distributed in the hope that it will be useful, but WITHOUT
 -- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 -- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
--- for more details. 
+-- for more details.
 
 -- You should have received a copy of the GNU General Public License
 -- along with VESTs; if not, write to the Free Software Foundation,
--- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-- Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 -- ---------------------------------------------------------------------
 --
@@ -40,7 +40,7 @@ BEGIN
   BEGIN
     wait for 5 ns;
     assert FALSE
-      report "***FAILED TEST: c10s03b00x00p05n01i00905 - Declaration is not visible until the end of the declaration.
+      report "***FAILED TEST: c10s03b00x00p05n01i00905 - Declaration is not visible until the end of the declaration."
       severity ERROR;
     wait;
   END PROCESS TESTING;
